@@ -1,3 +1,3 @@
-let b=document.getElementById("body");
-b.innerHTML=`<h1>DOM load success</h1>`;
-console.log(b);
+document.addEventListener("DOMContentLoaded", function () {
+  document.body.innerText = "DOM load success";
+});
